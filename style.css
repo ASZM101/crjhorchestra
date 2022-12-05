@@ -9,16 +9,16 @@ html, body {
 img{
   width: 200px;
   border-radius: 50%;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 h1{
   text-align: center;
   margin-bottom: 30px;
   color: white;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5em;
 }
-container{
+container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -36,14 +36,14 @@ p{
   align-self: center;
   text-align: center;
   color: white;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.75em;
 }
 button{
   margin: 10px;
   width: 50%;
   align-self: center;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   border-radius: 40px;
   padding: 7px;
   font-size: 1.75em;
@@ -72,9 +72,9 @@ h2{
   text-align: center;
   padding: 30px;
   color: white;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
-  -webkit-text-stroke: 0.25px black;
+  -webkit-text-stroke: 1px black;
   text-shadow: 2px 2px 2px black;
 }
 #home-title{
