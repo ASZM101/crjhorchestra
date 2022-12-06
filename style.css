@@ -1,3 +1,4 @@
+/* GENERAL STYLING */
 html, body {
   height: 100%;
   width: 100%;
@@ -6,109 +7,130 @@ html, body {
   margin: 0;
   padding: 0;
 }
-img.director{
-  width: 200px;
-  border-radius: 50%;
-  margin: 0 10px;
-}
-img.instrument-picture {
-  width: 40%;
-  height: auto;
-  padding-left: 10px;
-  padding-bottom: 20px;
-  margin: 20px;
-  float: right;
-}
-.instrument-information-container {
-  float: left;
-  margin: 20px;
-  text-align: center;
-}
-h1{
-  text-align: center;
-  margin-bottom: 30px;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5em;
-}
-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 10px 50px;
-}
-#directors-description{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 40%;
-}
-p{
-  margin: 20px;
-  width: 75%;
-  align-self: center;
-  text-align: center;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.75em;
+body{
+  font-family: 'Gill Sans';
 }
 button{
-  margin: 10px;
-  width: 50%;
-  align-self: center;
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 40px;
-  padding: 7px;
-  font-size: 1.75em;
-  background-color: #ffd687;
-  border: 1px solid #ffd687;
-  color: #651d32;
+  font-family: 'Gill Sans';
 }
-button:hover{
+/* HOME-DIRECTORS */
+section.first-section{
+  color: white;
+  background-color: #651d32;
+}
+img.home-directors{
+  max-height: 400px;
+  width: auto;
+  border-radius: 50%;
+}
+container.home-directors{
+  display: flex;
+  align-items: center;
+  justify-items: space-around;
+  justify-content: center;
+  padding: 40px 60px;
+  flex-wrap: wrap;
+}
+div.home-directors{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+h2.home-directors{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 20px;
+}
+button.home-directors{
+  width: 30%;
+  padding: 5px 10px;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  border: 1px solid #ffd787;
+  background-color: #ffd787;
+  color: #651D32;
+}
+p.home-directors{
+  width: 50%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+img.home-directors, p.home-directors, button.home-directors{
+  margin: 10px;
+}
+button.home-directors:hover{
   cursor: pointer;
-  box-shadow: 10px 10px 15px #ffd687;
+  box-shadow: 10px 10px 20px #ffd687;
   background-color: #FCB425;
   border-color: #FCB425;
   transition: all 1s ease;
 }
-button:not(:hover){
+button.home-directors:not(:hover){
   box-shadow: none;
   background-color: #ffd687;
   border-color: #ffd687;
   transition: all 1s ease;
 }
-section.meet-director-container{
-  background-color: #651d32;
-  padding: 40px 60px;
+/* HOME-INSTRUMENTS */
+section.second-section{
+  color: black;
+  background-color: white;
 }
-section.instrument-container {
-  background-color: #ffffff;
-  padding: 40px 60px;
+img.home-instruments{
+  max-height: 350px;
+  width: auto;
 }
-h2{
-  text-align: center;
-  padding: 30px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
-}
-h2.title{
-  text-align: center;
-  padding: 30px;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
-  -webkit-text-stroke: 1px black;
-  text-shadow: 2px 2px 2px black;
-}
-
-#home-title{
-  background-image: url("orchestra-pic-thin.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 750px;
+container.home-instruments{
   display: flex;
   align-items: center;
+  justify-items: space-around;
   justify-content: center;
+  padding: 40px 60px;
+  flex-wrap: wrap;
+}
+div.home-instruments{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+h2.home-instruments{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 20px;
+}
+button.home-instruments{
+  width: 30%;
+  padding: 5px 10px;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  border: 1px solid #FCB425;
+  background-color: #fcb425;
+  color: #651D32;
+}
+p.home-instruments{
+  width: 50%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+img.home-instruments, p.home-instruments, button.home-instruments{
+  margin: 10px;
+}
+button.home-instruments:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px 20px #FCB425;
+  background-color: #ffd687;
+  border-color: #ffd687;
+  transition: all 1s ease;
+}
+button.home-instruments:not(:hover){
+  box-shadow: none;
+  background-color: #FCB425;
+  border-color: #FCB425;
+  transition: all 1s ease;
 }
