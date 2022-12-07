@@ -14,7 +14,7 @@ button{
   font-family: 'Gill Sans';
 }
 /* HOME-DIRECTORS */
-section.first-section{
+section.second-section{
   color: white;
   background-color: #651d32;
 }
@@ -75,7 +75,7 @@ button.home-directors:not(:hover){
   transition: all 1s ease;
 }
 /* HOME-INSTRUMENTS */
-section.second-section{
+section.third-section{
   color: black;
   background-color: white;
 }
