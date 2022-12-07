@@ -110,6 +110,22 @@ section.third-section{
 section.fourth-section {
     background-color: #fcb425;
 }
+button.home-directors{
+    margin: 10px;
+}
+button.orchestra:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #ffd687;
+    background-color: #FCB425;
+    border-color: #FCB425;
+    transition: all 1s ease;
+}
+button.home-directors:not(:hover){
+    box-shadow: none;
+    background-color: #ffd687;
+    border-color: #ffd687;
+    transition: all 1s ease;
+}
 img.home-instruments{
     max-height: 350px;
     width: auto;
