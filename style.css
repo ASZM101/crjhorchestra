@@ -94,38 +94,19 @@ button.home-directors:hover{
     box-shadow: 10px 10px 20px #ffd687;
     background-color: #FCB425;
     border-color: #FCB425;
-    transition: all 1s ease;
+    transition: all 0.75s ease;
 }
 button.home-directors:not(:hover){
     box-shadow: none;
     background-color: #ffd687;
     border-color: #ffd687;
-    transition: all 1s ease;
+    transition: all 0.75s ease;
 }
 
 /* HOME-INSTRUMENTS */
 section.third-section{
     color: black;
     background-color: white;
-}
-section.fourth-section {
-    background-color: #fcb425;
-}
-button.home-directors{
-    margin: 10px;
-}
-button.orchestra:hover{
-    cursor: pointer;
-    box-shadow: 10px 10px 20px #ffd687;
-    background-color: #FCB425;
-    border-color: #FCB425;
-    transition: all 1s ease;
-}
-button.home-directors:not(:hover){
-    box-shadow: none;
-    background-color: #ffd687;
-    border-color: #ffd687;
-    transition: all 1s ease;
 }
 img.home-instruments{
     max-height: 350px;
@@ -174,13 +155,13 @@ button.home-instruments:hover{
     box-shadow: 10px 10px 20px #FCB425;
     background-color: #ffd687;
     border-color: #ffd687;
-    transition: all 1s ease;
+    transition: all 0.75s ease;
 }
 button.home-instruments:not(:hover){
     box-shadow: none;
     background-color: #FCB425;
     border-color: #FCB425;
-    transition: all 1s ease;
+    transition: all 0.75s ease;
 }
 
 /* HOME-ORCHESTRAS */
@@ -235,11 +216,74 @@ button.home-orchestras:hover{
     box-shadow: 10px 10px 20px #651D32;
     background-color: #E88989;
     border-color: #E88989;
-    transition: all 1s ease;
+    color: white;
+    transition: all 0.75s ease;
 }
 button.home-orchestras:not(:hover){
     box-shadow: none;
     background-color: #651D32;
     border-color: #651D32;
-    transition: all 1s ease;
+    transition: all 0.75s ease;
+}
+
+/* HOME-ACCOMPLISHMENTS */
+section.fifth-section{
+    color: black;
+    background-color: white;
+}
+img.home-accomplishments{
+    max-height: 350px;
+    width: auto;
+}
+container.home-accomplishments{
+    display: flex;
+    align-items: center;
+    justify-items: space-around;
+    justify-content: center;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+}
+div.home-accomplishments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+h2.home-accomplishments{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 20px;
+}
+button.home-accomplishments{
+    width: 30%;
+    padding: 5px 10px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    border: 1px solid #e88989;
+    background-color: #e88989;
+    color: #651D32;
+}
+p.home-accomplishments{
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+img.home-accomplishments, p.home-accomplishments, button.home-accomplishments{
+    margin: 10px;
+}
+button.home-accomplishments:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #e88989;
+    background-color: #651D32;
+    border-color: #651D32;
+    color: white;
+    transition: all 0.75s ease;
+}
+button.home-accomplishments:not(:hover){
+    box-shadow: none;
+    background-color: #e88989;
+    border-color: #e88989;
+    transition: all 0.75s ease;
 }
