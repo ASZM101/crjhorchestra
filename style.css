@@ -115,7 +115,6 @@ img.home-instruments{
 container.home-instruments{
     display: flex;
     align-items: center;
-    justify-items: space-around;
     justify-content: center;
     padding: 40px 60px;
     flex-wrap: wrap;
@@ -176,7 +175,6 @@ img.home-orchestras{
 container.home-orchestras{
     display: flex;
     align-items: center;
-    justify-items: space-around;
     justify-content: center;
     padding: 40px 60px;
     flex-wrap: wrap;
@@ -238,7 +236,6 @@ img.home-accomplishments{
 container.home-accomplishments{
     display: flex;
     align-items: center;
-    justify-items: space-around;
     justify-content: center;
     padding: 40px 60px;
     flex-wrap: wrap;
