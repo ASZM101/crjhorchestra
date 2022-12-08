@@ -163,3 +163,64 @@ button.home-instruments:not(:hover){
     border-color: #FCB425;
     transition: all 1s ease;
 }
+
+/* HOME-ORCHESTRAS */
+section.fourth-section{
+    color: black;
+    background-color: #FCB425;
+}
+img.home-orchestras{
+    max-height: 350px;
+    width: auto;
+}
+container.home-orchestras{
+    display: flex;
+    align-items: center;
+    justify-items: space-around;
+    justify-content: center;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+}
+div.home-orchestras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+h2.home-orchestras{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 20px;
+}
+button.home-orchestras{
+    width: 30%;
+    padding: 5px 10px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    border: 1px solid #651D32;
+    background-color: #651D32;
+    color: #ffd687;
+}
+p.home-orchestras{
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+img.home-orchestras, p.home-orchestras, button.home-orchestras{
+    margin: 10px;
+}
+button.home-orchestras:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #651D32;
+    background-color: #E88989;
+    border-color: #E88989;
+    transition: all 1s ease;
+}
+button.home-orchestras:not(:hover){
+    box-shadow: none;
+    background-color: #651D32;
+    border-color: #651D32;
+    transition: all 1s ease;
+}
