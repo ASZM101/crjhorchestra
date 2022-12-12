@@ -57,7 +57,7 @@ div.home-directors-img{
     flex-wrap: nowrap;
 }
 img.home-directors{
-    max-height: 300px;
+    max-height: 275px;
     width: auto;
     border-radius: 50%;
 }
