@@ -230,34 +230,34 @@ button.home-orchestras:not(:hover){
     transition: all 0.75s ease;
 }
 
-/* HOME-ACCOMPLISHMENTS */
+/* HOME-AWARDS */
 section.fifth-section{
     color: black;
     background-color: white;
 }
-img.home-accomplishments{
+img.home-awards{
     max-height: 350px;
     width: auto;
 }
-container.home-accomplishments{
+container.home-awards{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
     flex-wrap: wrap;
 }
-div.home-accomplishments{
+div.home-awards{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h2.home-accomplishments{
+h2.home-awards{
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
     padding: 20px;
 }
-button.home-accomplishments{
+button.home-awards{
     width: 250;
     padding: 5px 10px;
     border-radius: 40px;
@@ -266,16 +266,16 @@ button.home-accomplishments{
     background-color: #e88989;
     color: #651D32;
 }
-p.home-accomplishments{
+p.home-awards{
     width: 300px;
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
 }
-img.home-accomplishments, p.home-accomplishments, button.home-accomplishments{
+img.home-awards, p.home-awards, button.home-awards{
     margin: 10px;
 }
-button.home-accomplishments:hover{
+button.home-awards:hover{
     cursor: pointer;
     box-shadow: 10px 10px 20px #e88989;
     background-color: #651D32;
@@ -283,7 +283,7 @@ button.home-accomplishments:hover{
     color: white;
     transition: all 0.75s ease;
 }
-button.home-accomplishments:not(:hover){
+button.home-awards:not(:hover){
     box-shadow: none;
     background-color: #e88989;
     border-color: #e88989;
