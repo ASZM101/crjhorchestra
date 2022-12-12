@@ -23,10 +23,10 @@ section.first-section{
     color: black;
     background-color: white;
     text-align: center;
-    padding: 20px 20px;
+    padding: 20px;
 }
 .home{
-    margin: 20px 20px;
+    margin: 20px;
 }
 h1.home{
     font-size: 3rem;
@@ -52,14 +52,9 @@ section.second-section{
     color: white;
     background-color: #651d32;
 }
-div.home-directors-img{
-    display: flex;
-    flex-wrap: nowrap;
-}
 img.home-directors{
-    max-height: 275px;
+    max-height: 350px;
     width: auto;
-    border-radius: 50%;
 }
 container.home-directors{
     display: flex;
@@ -95,7 +90,8 @@ p.home-directors{
     font-weight: 300;
 }
 img.home-directors, p.home-directors, button.home-directors{
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 button.home-directors:hover{
     cursor: pointer;
@@ -154,7 +150,8 @@ p.home-instruments{
     font-weight: 300;
 }
 img.home-instruments, p.home-instruments, button.home-instruments{
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 button.home-instruments:hover{
     cursor: pointer;
@@ -213,7 +210,8 @@ p.home-orchestras{
     font-weight: 300;
 }
 img.home-orchestras, p.home-orchestras, button.home-orchestras{
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 button.home-orchestras:hover{
     cursor: pointer;
@@ -273,7 +271,8 @@ p.home-awards{
     font-weight: 300;
 }
 img.home-awards, p.home-awards, button.home-awards{
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 button.home-awards:hover{
     cursor: pointer;
