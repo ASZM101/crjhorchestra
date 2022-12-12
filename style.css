@@ -14,16 +14,19 @@ body{
 button{
     font-family: 'Gill Sans', sans-serif;
 }
+img{
+    max-width: 90vw;
+}
 
 /*HOME*/
 section.first-section{
     color: black;
     background-color: white;
     text-align: center;
-    margin: 40px 60px;
+    padding: 20px 20px;
 }
 .home{
-    margin: 20px 60px;
+    margin: 20px 20px;
 }
 h1.home{
     font-size: 3rem;
@@ -40,6 +43,8 @@ p.home{
 }
 iframe{
     margin: 10px;
+    max-width: 75vw;
+    max-height: auto;
 }
 
 /* HOME-DIRECTORS */
@@ -48,7 +53,9 @@ section.second-section{
     background-color: #651d32;
 }
 img.home-directors{
-    max-height: 400px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    max-height: 275px;
     width: auto;
     border-radius: 50%;
 }
@@ -56,14 +63,14 @@ container.home-directors{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px 60px;
+    padding: 20px 20px;
     flex-wrap: wrap;
 }
 div.home-directors{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 600px;
 }
 h2.home-directors{
     text-align: center;
@@ -72,7 +79,7 @@ h2.home-directors{
     padding-top: 20px;
 }
 button.home-directors{
-    width: 30%;
+    width: 200px;
     padding: 5px 10px;
     border-radius: 40px;
     font-size: 1.5rem;
@@ -116,14 +123,14 @@ container.home-instruments{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px 60px;
+    padding: 20px 20px;
     flex-wrap: wrap;
 }
 div.home-instruments{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 600px;
 }
 h2.home-instruments{
     text-align: center;
@@ -132,7 +139,7 @@ h2.home-instruments{
     padding-top: 20px;
 }
 button.home-instruments{
-    width: 30%;
+    width: 200px;
     padding: 5px 10px;
     border-radius: 40px;
     font-size: 1.5rem;
@@ -176,14 +183,14 @@ container.home-orchestras{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px 60px;
+    padding: 20px 20px;
     flex-wrap: wrap;
 }
 div.home-orchestras{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 600px;
 }
 h2.home-orchestras{
     text-align: center;
@@ -192,7 +199,7 @@ h2.home-orchestras{
     padding-top: 20px;
 }
 button.home-orchestras{
-    width: 30%;
+    width: 200px;
     padding: 5px 10px;
     border-radius: 40px;
     font-size: 1.5rem;
@@ -237,14 +244,14 @@ container.home-accomplishments{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px 60px;
+    padding: 20px 20px;
     flex-wrap: wrap;
 }
 div.home-accomplishments{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 600px;
 }
 h2.home-accomplishments{
     text-align: center;
@@ -253,7 +260,7 @@ h2.home-accomplishments{
     padding-top: 20px;
 }
 button.home-accomplishments{
-    width: 30%;
+    width: 250px;
     padding: 5px 10px;
     border-radius: 40px;
     font-size: 1.5rem;
