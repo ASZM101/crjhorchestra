@@ -1,4 +1,5 @@
 /* Color palette: https://tinyurl.com/crjhorchestra-colors */
+
 /* GENERAL STYLING */
 html, body {
     height: 100%;
@@ -18,6 +19,56 @@ img{
     max-width: 90vw;
 }
 
+/*HOMENAV*/
+nav.homeNav{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffd787;
+    align-items: center;
+    justify-content: center;
+}
+nav.homeNav > *{
+    padding: 10px 30px;
+}
+img.homeNav{
+    max-height: 70px;
+}
+
+/*HOMEFOOTER*/
+footer.homeFooter{
+    background-color: #ffd787;
+    padding-bottom: 30px;
+}
+div.firstLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+div.firstLine > *{
+    padding: 10px 30px;
+}
+img.homeFooter{
+    max-height: 70px;
+}
+div.secondLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+h3.homeFooter-CRJH{
+    position:absolute;
+    left: 0;
+    padding: 10px 30px;
+    font-weight: 550;
+}
+h3.homeFooter-date{
+    position:absolute;
+    right: 0;
+    padding: 10px 30px;
+    font-weight: 550;
+}
 /*HOME*/
 section.first-section{
     color: black;
