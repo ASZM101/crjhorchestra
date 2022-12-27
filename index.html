@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="CRJH%20Orchestra%20logo-transparent.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -10,14 +12,17 @@
 
 <body>
     
-    <nav class="homeNav">
-        <img class="homeNav" src="CRJH%20Orchestra%20logo-transparent.png">
-        <h3 class="homeNav">Directors</h3>
-        <h3 class="homeNav">Instruments</h3>
-        <h3 class="homeNav">Orchestras</h3>
-        <h3 class="homeNav">Awards</h3>
-        <h3 class="homeNav">Announcements</h3>
-        <h3 class="homeNav">Resources</h3>
+    <nav class="homeNav regular">
+        <a class="homeNav homeLogo"><img class="homeNav" src="CRJH%20Orchestra%20logo-transparent.png"></a>
+        <a class="homeNav">Directors</a>
+        <a class="homeNav">Instruments</a>
+        <a class="homeNav">Orchestras</a>
+        <a class="homeNav">Awards</a>
+        <a class="homeNav">Announcements</a>
+        <a class="homeNav">Resources</a>
+        <a href="javascript:void(0);" class="icon" onclick="compactNav()">
+    <i class="fa fa-bars"></i>
+        </a>
     </nav>
     
     <section class="first-section">
@@ -96,13 +101,13 @@
     
     <footer class="homeFooter">
         <div class="firstLine">
-            <h3 class="homeFooter">Directors</h3>
-            <h3 class="homeFooter">Instruments</h3>
-            <h3 class="homeFooter">Orchestras</h3>
-            <img class="homeFooter" src="CRJH%20Orchestra%20logo-transparent.png">
-            <h3 class="homeFooter">Awards</h3>
-            <h3 class="homeFooter">Announcements</h3>
-            <h3 class="homeFooter">Resources</h3>
+            <a class="homeFooter">Directors</a>
+            <a class="homeFooter">Instruments</a>
+            <a class="homeFooter">Orchestras</a>
+            <a class="homeFooter homeLogo"><img class="homeFooter" src="CRJH%20Orchestra%20logo-transparent.png"></a>
+            <a class="homeFooter">Awards</a>
+            <a class="homeFooter">Announcements</a>
+            <a class="homeFooter">Resources</a>
         </div>
         <div class="secondLine">
             <h3 class="homeFooter-CRJH">Cinco Ranch Junior High Orchestra</h3>
