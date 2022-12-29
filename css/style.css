@@ -61,7 +61,6 @@ a.icon{
     }
 }
 @media screen and (max-width: 1140px) {
-    .homeNav.responsive {position: relative;}
     .homeNav.responsive a.icon {
         position: absolute;
         right: 0;
@@ -96,14 +95,14 @@ div.secondLine{
     align-items: center;
     justify-content: center;
 }
-a.homeFooter:not(.homeLogo){
+footer div a:not(.homeLogo){
     padding: 30px 30px;
     font-size: 1.25rem;
     font-weight: 700;
     color: black;
     text-decoration: none;
 }
-a.homeFooter:hover{
+footer div a:hover{
     color: #651D32;
     cursor: pointer;
 }
@@ -145,7 +144,6 @@ p.home{
 iframe{
     margin: 10px;
     max-width: 75vw;
-    max-height: auto;
 }
 
 /* HOME-DIRECTORS */
