@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="CRJH%20Orchestra%20logo-transparent.png">
+    <link rel="icon" href="img/logo.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>CRJH Orchestra</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="build"></script>
 </head>
 
 <body>
     
     <nav class="homeNav regular">
-        <a class="homeNav homeLogo"><img class="homeNav" src="CRJH%20Orchestra%20logo-transparent.png"></a>
+        <a class="homeNav homeLogo"><img class="homeNav" src="img/logo.png" alt="Logo"></a>
         <a class="homeNav">Directors</a>
         <a class="homeNav">Instruments</a>
         <a class="homeNav">Orchestras</a>
@@ -30,16 +31,17 @@
         <h3 class="home"><i>Courage Over Comfort</i></h3>
         <p class="home">Cinco Ranch Junior High Orchestra is an award-winning program that strives for excellence, teamwork, and fun for all students. CRJH Orchestra has five orchestras made up of five different string instruments: violin, viola, cello, bass, and harp. Students with no experience can join our First Year Orchestra classes, while students with musical experiences have the opportunity to join Philharmonic, Chamber, Sinfonia, or Symphony class. Orchestra students can use problem-solving skills, critical thinking skills, and ability to communicate in orchestra to other areas of life. Orchestra students are dedicated to being bold, brilliant, and the best.</p>
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/pBVlxrRJTX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pBVlxrRJTX8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     
     <section class="second-section">
         <h2 class="home-directors">Meet the Directors</h2>
         <container class="home-directors">
-            <img class="home-directors" src="mrs_vu-ms_jones-bitmoji.png" alt="Mrs. Vu and Ms. Jones">
+            <img class="home-directors" src="img/orchestra-director-preview.png" alt="Mrs. Vu and Ms. Jones">
             <div class="home-directors">
                 <p class="home-directors">Learn about the Directors of the CRJH Orchestra!</p>
-                <a href="https://coolors.co/651d32-fcb425-333333-000400-ffffff-ffd787-e88989"></a><button class="home-directors">Visit<br>Directors</button>
+                <!--TODO:Directors link-->
+                <a href="https://google.com"><button class="home-directors">Visit<br>Directors</button></a>
             </div>
         </container>
     </section>
@@ -51,14 +53,14 @@
                 <p class="home-instruments">Take a look at the variety of instruments in the CRJH Orchestra!</p>
                 <button class="home-instruments">Visit<br>Instruments</button>
             </div>
-            <img class="home-instruments" src="string_family.jpeg" alt="String Family">
+            <img class="home-instruments" src="img/instruments.jpeg" alt="String Family">
         </container>
     </section>
     
     <section class="fourth-section">
         <h2 class="home-orchestras">Dive Into the Orchestras</h2>
         <container class="home-orchestras">
-            <img class="home-orchestras" src="orchestra.png" alt="Symphony Orchestra">
+            <img class="home-orchestras" src="img/orchestra.png" alt="Symphony Orchestra">
             <div class="home-orchestras">
                 <p class="home-orchestras">Find out more about the different groups in the CRJH Orchestra!</p>
                 <button class="home-orchestras">Visit<br>Orchestras</button>
@@ -73,14 +75,14 @@
                 <p class="home-awards">Get a glimpse of everything the CRJH Orchestras have accomplished!</p>
                 <button class="home-awards">Visit<br>Awards</button>
             </div>
-            <img class="home-awards" src="awards_clipart.png" alt="Trophies">
+            <img class="home-awards" src="img/awards_clipart.png" alt="Trophies">
         </container>
     </section>
     
     <section class="sixth-section">
         <h2 class="home-announcements">Stay Updated on Announcements</h2>
         <container class="home-announcements">
-            <img class="home-announcements" src="calendar.jpeg" alt="Calendar">
+            <img class="home-announcements" src="img/calendar.jpeg" alt="Calendar">
             <div class="home-announcements">
                 <p class="home-announcements">Be up-to-date on the latest news and events in the CRJH Orchestra!</p>
                 <button class="home-announcements">Visit<br>Announcements</button>
@@ -95,19 +97,19 @@
                 <p class="home-resources">Learn about good practice habits, find out which instrument would be best for you, and more!</p>
                 <button class="home-resources">Visit<br>Resources</button>
             </div>
-            <img class="home-resources" src="resources.png" alt="Additional resources">
+            <img class="home-resources" src="img/resources.png" alt="Additional resources">
         </container>
     </section>
     
     <footer class="homeFooter">
         <div class="firstLine">
-            <a class="homeFooter">Directors</a>
-            <a class="homeFooter">Instruments</a>
-            <a class="homeFooter">Orchestras</a>
-            <a class="homeFooter homeLogo"><img class="homeFooter" src="CRJH%20Orchestra%20logo-transparent.png"></a>
-            <a class="homeFooter">Awards</a>
-            <a class="homeFooter">Announcements</a>
-            <a class="homeFooter">Resources</a>
+            <a>Directors</a>
+            <a>Instruments</a>
+            <a>Orchestras</a>
+            <a class="homeLogo"><img class="homeFooter" src="img/logo.png" alt="Logo"></a>
+            <a>Awards</a>
+            <a>Announcements</a>
+            <a>Resources</a>
         </div>
         <div class="secondLine">
             <h3 class="homeFooter-CRJH">Cinco Ranch Junior High Orchestra</h3>
@@ -115,7 +117,7 @@
         </div>
     </footer>
     
-  <script src="script.js"></script>
+  <script src="src/script.ts"></script>
 </body>
 
 </html>
