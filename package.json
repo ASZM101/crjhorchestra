@@ -1,5 +1,6 @@
 {
-  "dependencies": {
-    "node.js": "^0.0.1-security"
-  }
+    "name": "crjhorchestra",
+    "dependencies": {
+        "node.js": "^0.0.1-security"
+    }
 }
