@@ -144,6 +144,7 @@ p.home{
 iframe{
     margin: 10px;
     max-width: 75vw;
+    border: none;
 }
 
 /* HOME-DIRECTORS */
