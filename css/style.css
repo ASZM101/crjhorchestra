@@ -42,6 +42,13 @@ a.homeNav:hover{
     color: white;
     background-color: #E88989;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+a.homeNav:not(hover){
+    color: black;
+    background-color: #ffd787;
+    cursor: default;
+    transition: all 0.5s ease;
 }
 a.homeLogo:hover{
     background-color: #FFD787;
@@ -202,13 +209,13 @@ button.home-directors:hover{
     box-shadow: 10px 10px 20px #ffd687;
     background-color: #FCB425;
     border-color: #FCB425;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 button.home-directors:not(:hover){
     box-shadow: none;
     background-color: #ffd687;
     border-color: #ffd687;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 
 /* HOME-INSTRUMENTS */
@@ -262,13 +269,13 @@ button.home-instruments:hover{
     box-shadow: 10px 10px 20px #FCB425;
     background-color: #ffd687;
     border-color: #ffd687;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 button.home-instruments:not(:hover){
     box-shadow: none;
     background-color: #FCB425;
     border-color: #FCB425;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 
 /* HOME-ORCHESTRAS */
@@ -323,13 +330,13 @@ button.home-orchestras:hover{
     background-color: #E88989;
     border-color: #E88989;
     color: white;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 button.home-orchestras:not(:hover){
     box-shadow: none;
     background-color: #651D32;
     border-color: #651D32;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 
 /* HOME-AWARDS */
@@ -384,13 +391,13 @@ button.home-awards:hover{
     background-color: #651D32;
     border-color: #651D32;
     color: white;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 button.home-awards:not(:hover){
     box-shadow: none;
     background-color: #e88989;
     border-color: #e88989;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 
 /* HOME-ANNOUNCEMENTS */
@@ -444,13 +451,13 @@ button.home-announcements:hover{
     box-shadow: 10px 10px 20px #ffd687;
     background-color: #FCB425;
     border-color: #FCB425;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 button.home-announcements:not(:hover){
     box-shadow: none;
     background-color: #ffd687;
     border-color: #ffd687;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 
 /* HOME-RESOURCES */
@@ -504,11 +511,11 @@ button.home-resources:hover{
     box-shadow: 10px 10px 20px #FCB425;
     background-color: #ffd687;
     border-color: #ffd687;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
 button.home-resources:not(:hover){
     box-shadow: none;
     background-color: #FCB425;
     border-color: #FCB425;
-    transition: all 0.75s ease;
+    transition: all 0.5s ease;
 }
