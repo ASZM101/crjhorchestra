@@ -20,17 +20,21 @@ img{
 }
 
 /*HOMENAV*/
+img.homeNav{
+    margin-left: 20px;
+}
 nav.homeNav{
     display: flex;
     flex-direction: row;
     background-color: #ffd787;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 a.homeNav:not(.homeLogo){
     padding: 30px 30px;
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 600;
     color: black;
     text-decoration: none;
 }
@@ -51,7 +55,7 @@ img.homeNav{
 a.icon{
     color: black;
 }
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
     .homeNav a:not(:first-child) {display: none;}
     .homeNav a.icon {
         position: absolute;
@@ -60,7 +64,7 @@ a.icon{
         display: block;
     }
 }
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
     .homeNav.responsive a.icon {
         position: absolute;
         right: 0;
