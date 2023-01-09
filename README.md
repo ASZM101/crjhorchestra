@@ -22,5 +22,5 @@ tsc --project tsconfig.json
 # Checking code-style for TypeScript
 
 ```shell
-eslint --ext .ts
+npx eslint --ext .ts .
 ```
