@@ -85,9 +85,11 @@ a.icon{
 }
 
 /*HOMEFOOTER*/
-footer.homeFooter{
+footer{
     background-color: #ffd787;
     padding-bottom: 30px;
+    position: relative;
+    bottom: 0;
 }
 div.firstLine{
     display: flex;
