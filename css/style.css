@@ -31,20 +31,20 @@ nav.homeNav{
     justify-content: center;
     width: 100%;
 }
-a.homeNav:not(.homeLogo){
+a.navElement:not(.homeLogo){
     padding: 30px 30px;
     font-size: 1.25rem;
     font-weight: 600;
     color: black;
     text-decoration: none;
 }
-a.homeNav:hover{
+a.navElement:hover{
     color: white;
     background-color: #E88989;
     cursor: pointer;
     transition: all 0.5s ease;
 }
-a.homeNav:not(hover){
+a.navElement:not(hover){
     color: black;
     background-color: #ffd787;
     cursor: default;
@@ -520,4 +520,8 @@ button.home-resources:not(:hover){
     background-color: #FCB425;
     border-color: #FCB425;
     transition: all 0.5s ease;
+}
+.responsive {
+    display: flex;
+    flex-wrap: wrap;
 }
