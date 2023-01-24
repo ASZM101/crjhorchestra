@@ -65,13 +65,17 @@ a.icon{
 @media screen and (max-width: 1000px) {
     .homeNav a:not(:first-child) {display: none;}
     .homeNav a.icon {
+        float: right;
         position: absolute;
         right: 0;
-        margin-right: 20px; 
+        margin: 20px;
         display: block;
     }
 }
 @media screen and (max-width: 1000px) {
+    .homeNav.responsive {
+        position: relative;
+    }
     .homeNav.responsive a.icon {
         position: absolute;
         right: 0;
@@ -81,6 +85,10 @@ a.icon{
         float: none;
         display: block;
         text-align: left;
+    }
+    nav.responsive{
+        display: flex;
+        flex-direction: column;
     }
 }
 
