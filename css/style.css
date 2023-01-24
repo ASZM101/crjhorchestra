@@ -84,11 +84,32 @@ a.icon{
     .homeNav.responsive a {
         float: none;
         display: block;
-        text-align: left;
+    }
+    .homeNav.responsive a:not(:first-child, :last-child){
+        width: 100vw;
+        text-align: center;
+        background-color: #FCB425;
+        padding: 15px;
+        margin-bottom: 5px;
     }
     nav.responsive{
         display: flex;
         flex-direction: column;
+    }
+    .responsive a.navElement:hover{
+        color: white;
+        background-color: #E88989;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+    .responsive a.navElement:not(hover){
+        color: black;
+        background-color: #ffd787;
+        cursor: default;
+        transition: all 0.5s ease;
+    }
+    .responsive a.homeLogo:hover{
+        background-color: #FFD787;
     }
 }
 
