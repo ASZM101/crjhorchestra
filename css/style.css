@@ -29,7 +29,7 @@ nav.homeNav{
     background-color: #ffd787;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
 a.navElement:not(.homeLogo){
     padding: 30px 30px;
@@ -68,11 +68,14 @@ a.icon{
         float: right;
         position: absolute;
         right: 0;
-        margin: 20px;
+        padding: 20px;
         display: block;
     }
 }
 @media screen and (max-width: 1000px) {
+    nav.responsive{
+        width: 100vw;
+    }
     .homeNav.responsive {
         position: relative;
     }
@@ -85,11 +88,19 @@ a.icon{
         float: none;
         display: block;
     }
-    .homeNav.responsive a:not(:first-child, :last-child){
-        width: 100vw;
+    .homeNav.responsive a:not(:first-child, :last-child, :nth-child(7)){
+/*        width: 50px;*/
         text-align: center;
-        background-color: #FCB425;
+/*        background-color: #FCB425;*/
         padding: 15px;
+        margin-bottom: 5px;
+        border-bottom: 5px solid #E88989;
+    }
+    nav.responsive a:nth-child(7){
+        /*        width: 100%;*/
+        text-align: center;
+/*        background-color: #FCB425;*/
+        padding: 10px;
         margin-bottom: 5px;
     }
     nav.responsive{
@@ -97,8 +108,8 @@ a.icon{
         flex-direction: column;
     }
     .responsive a.navElement:hover{
-        color: white;
-        background-color: #E88989;
+        color: #E88989;
+        background-color: #FFD787;
         cursor: pointer;
         transition: all 0.5s ease;
     }
