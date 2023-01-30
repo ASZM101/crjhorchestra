@@ -67,6 +67,10 @@ p.home{
     font-weight: 300;
     line-height: 2;
 }
+.arrow {
+    width: 10%;
+    height: auto;
+}
 iframe{
     margin: 10px;
     max-width: 75vw;
