@@ -76,3 +76,16 @@ iframe{
     max-width: 75vw;
     border: none;
 }
+.footerLogo {
+    height: 27px;
+    width: auto;
+}
+.footerElement {
+    display: inline;
+}
+/* Divide the footer into 3 evenly-spaced blocks. Place each footerElement into the center of its block*/
+.footerElement {
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+}
