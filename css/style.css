@@ -410,3 +410,9 @@ button.seventh-section:not(:hover){
     border-color: #FCB425;
     transition: all 0.5s ease;
 }
+
+/*DIRECTORS*/
+img.directorPics{
+    max-height: 350px;
+    border-radius: 50%;
+}
