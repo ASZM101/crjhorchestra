@@ -507,3 +507,24 @@ p.quote{
 .instrumentButtons button{
     margin: 20px;
 }
+
+/*ORCHESTRAS*/
+.concerts button{
+    display: block;
+    width: 50vh;
+    margin: 20px 20px;
+    padding: 10px;
+}
+div.concert{
+    display: flex;
+    flex-direction: column;
+}
+div.orchestraSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.orchestraSection > *{
+    margin: 20px;
+}
