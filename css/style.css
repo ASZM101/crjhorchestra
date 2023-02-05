@@ -41,6 +41,7 @@ p.first-section, p.paragraph{
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 2;
+    text-align: center;
 }
 
 
@@ -442,4 +443,67 @@ img.contactIcon:not(:hover){
     img.contactIcon{
         padding: 10px 0px;
     }
+}
+
+/*INSTRUMENTS*/
+p.instrumentInfo{
+    max-width: 500px;
+}
+div.instrumentSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.second-section img.musicianPics{
+    border-radius: 50%;
+    display: block;
+    border: 3px solid #FFD787;
+    max-height: 150px;
+    background-color: white;
+}
+div.third-section img.musicianPics{
+    border-radius: 50%;
+    display: block;
+    border: 3px solid #FCB425;
+    max-height: 150px;
+    background-color: white;
+}
+div.fourth-section img.musicianPics{
+    border-radius: 50%;
+    display: block;
+    border: 3px solid #651D32;
+    max-height: 150px;
+    background-color: white;
+}
+div.fifth-section img.musicianPics{
+    border-radius: 50%;
+    display: block;
+    border: 3px solid #E88989;
+    max-height: 150px;
+    background-color: white;
+}
+div.musicianSection > *{
+    display: block;
+    margin: 10px;
+}
+div.musicianSection{
+    display: flex;
+    justify-content: center;
+}
+.soloSongs button{
+    margin: 10px 40px;
+    padding: 10px;
+}
+div.soloSongs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+p.quote{
+    max-width: 500px;
+}
+.instrumentButtons button{
+    margin: 20px;
 }

@@ -18,3 +18,13 @@ function compactNav2() {
         element.className = "nav";
     }
 }
+
+function compactNav3() {
+    var element = document.getElementById("topNav3");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}

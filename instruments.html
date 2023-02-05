@@ -8,41 +8,129 @@
     <meta name="viewport" content="width=device-width">
     <title>Instruments | CRJH Orchestra</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <script src="build"></script>
+    <link href="css/nav.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
+    <script src="build/script.js"></script>
 </head>
 
 <body>
-    
-    <nav class="homeNav">
-        <a class="homeNav homeLogo"><img class="homeNav" src="img/logo.png" alt="Logo"></a>
-        <a class="homeNav">Directors</a>
-        <a class="homeNav">Instruments</a>
-        <a class="homeNav">Orchestras</a>
-        <a class="homeNav">Awards</a>
-        <a class="homeNav">Announcements</a>
-        <a class="homeNav">Resources</a>
-        <a href="javascript:void(0);" class="icon" onclick="compactNav()">
-    <i class="fa fa-bars"></i>
+
+    <nav class="nav" id="topNav3">
+        <a class="navElement logo" href="index.html"><img class="nav" src="img/logo.png" alt="Logo"></a>
+        <a class="navElement" href="directors.html">Directors</a>
+        <a class="navElement" href="instruments.html">Instruments</a>
+        <a class="navElement" href="orchestras.html">Orchestras</a>
+        <a class="navElement" href="awards.html">Awards</a>
+        <a class="navElement" href="news.html">News</a>
+        <a class="navElement" href="resources.html">Resources</a>
+        <a href="javascript:void(0);" class="icon" onclick="compactNav3()">
+            <i class="fa fa-bars"></i>
         </a>
     </nav>
     
-    <footer class="homeFooter">
-        <div class="firstLine">
-            <a>Directors</a>
-            <a>Instruments</a>
-            <a>Orchestras</a>
-            <a class="homeLogo"><img class="homeFooter" src="img/logo.png" alt="Logo"></a>
-            <a>Awards</a>
-            <a>Announcements</a>
-            <a>Resources</a>
+    <section class="first-section">
+        <h1 class="first-section">Instruments</h1>
+        <p class="first-section">Take a look at the variety of instruments in the Cinco Ranch Junior High Orchestra!</p>
+        <div class="instrumentButtons">
+            <a href="#violin"><button class="fourth-section">Violin</button></a>
+            <a href="#viola"><button class="third-section">Viola</button></a>
+            <a href="#cello"><button class="fifth-section">Cello</button></a>
+            <a href="#bass"><button class="second-section">Bass</button></a>
         </div>
-        <div class="secondLine">
-            <h3 class="homeFooter-CRJH">Cinco Ranch Junior High Orchestra</h3>
-            <h3 class="homeFooter-date">Last Updated: December 13, 2022</h3>
-        </div>
-    </footer>
+    </section>
+
+    <section class="second-section" id="violin">
+        <h2 class="second-section">Violin</h2>
+        <container class="second-section">
+            <div class="second-section instrumentSection">
+                <img class="second-section directorPics" src="img/violin.png" alt="Violin">
+                <p class="paragraph instrumentInfo" align="center">The violin is a small, wooden instrument. and it’s the highest-pitched instrument in the string family. Sounds on violins can be produced by either plucking the strings with your finger or by using a wooden object called a bow. Violinists place their instrument on their neck with a small object called the shoulder rest to make it comfortable for them to play and hold it in place.</p>
+            </div>
+            <div class="second-section musicianSection">
+                <img class="second-section musicianPics" src="img/violin.png" alt="Violinist">
+                <p class="paragraph"><b>Nathan L. (Symphony 2023)</b></p>
+                <p class="paragraph quote"><i>“It’s a good place to meet new friends that you can learn from.”</i></p>
+                <div class="second-section soloSongs">
+                    <button class="second-section">Listen to Song</button>
+                    <button class="second-section">Listen to Song</button>
+                </div>
+            </div>
+        </container>
+    </section>
     
-  <script src="src/script.ts"></script>
+    <section class="third-section" id="viola">
+        <h2 class="third-section">Viola</h2>
+        <container class="third-section">
+            <div class="third-section musicianSection">
+                <img class="third-section musicianPics" src="img/viola.png" alt="Violist">
+                <p class="paragraph"><b>Adriana Z. (Symphony 2023)</b></p>
+                <p class="paragraph quote"><i>“Being a part of the orchestra has been really fun! I have learned a lot and made many good friends.”</i></p>
+                <div class="third-section soloSongs">
+                    <button class="third-section">Listen to Song</button>
+                    <button class="third-section">Listen to Song</button>
+                </div>
+            </div>
+            <div class="third-section instrumentSection">
+                <p class="paragraph instrumentInfo" align="center">The viola is a medium-sized instrument that is slightly bigger than the violin, and it has a deeper tone that is lower than the violin but higher than the cello. Violas can also be either plucked or bowed to produce sounds. The viola is usually also used with a shoulder rest, and it is the second highest-pitched instrument in the string family.</p>
+                <img class="third-section directorPics" src="img/viola.png" alt="Viola">
+            </div>
+        </container>
+    </section>
+
+    <section class="fourth-section" id="cello">
+        <h2 class="fourth-section">Cello</h2>
+        <container class="fourth-section">
+            <div class="fourth-section instrumentSection">
+                <img class="fourth-section directorPics" src="img/cello.png" alt="Cello">
+                <p class="paragraph instrumentInfo" align="center">The cello is the third highest-pitched instrument in the string family, and sounds on a cello can also be produced by plucking or bowing. It has a deeper tone than the viola, but they both have similar strings. Cellos are much larger than violins and violas, so instead of carrying it to school back and forth, CRJH allows you to rent a cello to keep at school.</p>
+            </div>
+            <div class="fourth-section musicianSection">
+                <img class="fourth-section musicianPics" src="img/cello.png" alt="Cellist">
+                <p class="paragraph"><b>Quinn M. (Symphony 2023)</b></p>
+                <p class="paragraph quote"><i>“It’s a lot more fun than you would expect! It’s not just the boring classical music; we play a lot of cool pieces!”</i></p>
+                <div class="fourth-section soloSongs">
+                    <button class="fourth-section">Listen to Song</button>
+                    <button class="fourth-section">Listen to Song</button>
+                </div>
+            </div>
+        </container>
+    </section>
+
+    <section class="fifth-section" id="bass">
+        <h2 class="fifth-section">Bass</h2>
+        <container class="fifth-section">
+            <div class="fifth-section musicianSection">
+                <img class="fifth-section musicianPics" src="img/viola.png" alt="Violist">
+                <p class="paragraph"><b>Angad K. (Symphony 2023)</b></p>
+                <p class="paragraph quote"><i>“Orchestra’s the best because you get to play cool music!”</i></p>
+                <div class="fifth-section soloSongs">
+                    <button class="fifth-section">Listen to Song</button>
+                    <button class="fifth-section">Listen to Song</button>
+                </div>
+            </div>
+            <div class="fifth-section instrumentSection">
+                <p class="paragraph instrumentInfo" align="center">The bass is the lowest-sounding instrument with the deepest strings in the string family. It has a rich sound with a heavy tone, and basses can also be plucked or bowed to produce a sounds. The bass is larger and heavier than the cello, but don’t worry, CRJH also allows you to rent a bass to keep at school.</p>
+                <img class="fifth-section directorPics" src="img/viola.png" alt="Viola">
+            </div>
+        </container>
+    </section>
+
+    <footer class="footer">
+        <ul>
+            <li class="footerElement">
+                <span class="footerElement">CRJH Orchestra</span>
+            </li>
+            <li class="footerElement">
+                <img src="img/logo.png" alt="Logo" class="logo">
+            </li>
+            <li class="footerElement">
+                <span class="footerElement">Updated 2/4/23</span>
+            </li>
+            <li class="footerElement">
+                <a href="#topNav3" class="footerElement backToTop">Back to Top</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 
 </html>
