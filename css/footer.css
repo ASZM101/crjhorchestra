@@ -1,6 +1,6 @@
 footer{
     background-color: #ffd787;
-    padding-bottom: 30px;
+/*    padding-bottom: 30px;*/
     position: relative;
     bottom: 0;
 }
@@ -22,7 +22,7 @@ div.secondLine{
     justify-content: center;
 }
 footer div a:not(.homeLogo){
-    padding: 30px 30px;
+/*    padding: 30px 30px;*/
     font-size: 1.25rem;
     font-weight: 700;
     color: black;
@@ -35,57 +35,51 @@ footer div a:hover{
 h3.homeFooter-CRJH{
     position:absolute;
     left: 0;
-    padding: 10px 30px;
+/*    padding: 10px 30px;*/
     font-weight: 550;
 }
 h3.homeFooter-date{
     position:absolute;
     right: 0;
-    padding: 10px 30px;
+/*    padding: 10px 30px;*/
     font-weight: 550;
-}
-/*HOME*/
-section.first-section{
-    color: black;
-    background-color: white;
-    text-align: center;
-    padding: 20px;
-}
-.home{
-    margin: 20px;
-}
-h1.home{
-    font-size: 3rem;
-    font-weight: 700;
-}
-h3.home{
-    font-size: 2rem;
-    font-weight: 500;
-}
-p.home{
-    font-size: 1.25rem;
-    font-weight: 300;
-    line-height: 2;
 }
 .arrow {
     width: 10%;
     height: auto;
 }
-iframe{
-    margin: 10px;
-    max-width: 75vw;
-    border: none;
-}
 .footerLogo {
-    height: 27px;
+    max-height: 70px;
     width: auto;
+    margin: 20px;
 }
 .footerElement {
     display: inline;
+    margin: 20px;
+}
+footer span{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+a.backToTop{
+    display: block;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .footerElement{
+        display: block;
+    }
 }
 /* Divide the footer into 3 evenly-spaced blocks. Place each footerElement into the center of its block*/
+/*
 .footerElement {
     display: inline-block;
     width: 33.33%;
     text-align: center;
-}
+}*/

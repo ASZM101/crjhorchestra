@@ -19,9 +19,30 @@ img{
     max-width: 90vw;
 }
 
-/*HOMENAV*/
+/*HOME*/
+section.first-section{
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.home{
+    margin: 20px;
+}
+h1.home{
+    font-size: 3rem;
+    font-weight: 700;
+}
+h3.home{
+    font-size: 2rem;
+    font-weight: 500;
+}
+p.home{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2;
+}
 
-/*HOMEFOOTER*/
 
 /* HOME-DIRECTORS */
 section.second-section{
@@ -81,6 +102,11 @@ button.home-directors:not(:hover){
     background-color: #ffd687;
     border-color: #ffd687;
     transition: all 0.5s ease;
+}
+iframe{
+    margin: 10px;
+    max-width: 75vw;
+    border: none;
 }
 
 /* HOME-INSTRUMENTS */
