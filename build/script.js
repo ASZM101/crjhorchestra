@@ -1,10 +1,20 @@
 "use strict";
 function compactNav() {
     var element = document.getElementById("topNav");
-    if (element.className === "homeNav") {
+    if (element.className === "nav") {
         element.className += " responsive";
     }
     else {
-        element.className = "homeNav";
+        element.className = "nav";
+    }
+}
+
+function compactNav2() {
+    var element = document.getElementById("topNav2");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
     }
 }

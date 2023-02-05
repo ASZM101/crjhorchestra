@@ -416,3 +416,30 @@ img.directorPics{
     max-height: 350px;
     border-radius: 50%;
 }
+img.contactIcon{
+    max-height: 50px;
+    padding: 10px 20px;
+}
+div.contactInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.contactIcons{
+    display: flex;
+}
+img.contactIcon:hover{
+    cursor: pointer;
+    border-bottom: 3px solid black;
+    transition: all 0.5s ease;
+}
+img.contactIcon:not(:hover){
+    border-bottom: 3px solid white;
+    transition: border-bottom 0.5s ease;
+}
+@media screen and (max-width: 600px){
+    img.contactIcon{
+        padding: 10px 0px;
+    }
+}
