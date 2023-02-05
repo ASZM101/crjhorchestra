@@ -37,7 +37,7 @@ h3.first-section{
     font-size: 2rem;
     font-weight: 500;
 }
-p.first-section{
+p.first-section, p.paragraph{
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 2;
