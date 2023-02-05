@@ -4,51 +4,18 @@ footer{
     position: relative;
     bottom: 0;
 }
-div.firstLine{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-img.homeFooter{
-    max-height: 70px;
-}
-div.secondLine{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-footer div a:not(.homeLogo){
+footer a:not(.logo){
 /*    padding: 30px 30px;*/
     font-size: 1.25rem;
     font-weight: 700;
     color: black;
     text-decoration: none;
 }
-footer div a:hover{
+footer a:hover{
     color: #651D32;
     cursor: pointer;
 }
-h3.homeFooter-CRJH{
-    position:absolute;
-    left: 0;
-/*    padding: 10px 30px;*/
-    font-weight: 550;
-}
-h3.homeFooter-date{
-    position:absolute;
-    right: 0;
-/*    padding: 10px 30px;*/
-    font-weight: 550;
-}
-.arrow {
-    width: 10%;
-    height: auto;
-}
-.footerLogo {
+img.logo {
     max-height: 70px;
     width: auto;
     margin: 20px;

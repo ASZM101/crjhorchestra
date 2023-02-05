@@ -1,7 +1,8 @@
-img.homeNav{
+img.nav{
     margin-left: 20px;
+    height: 70px;
 }
-nav.homeNav{
+nav.nav{
     display: flex;
     flex-direction: row;
     background-color: #ffd787;
@@ -9,7 +10,7 @@ nav.homeNav{
     justify-content: center;
     width: 100vw;
 }
-a.navElement:not(.homeLogo){
+a.navElement:not(.logo){
     padding: 30px 30px;
     font-size: 1.25rem;
     font-weight: 600;
@@ -28,21 +29,21 @@ a.navElement:not(hover){
     cursor: default;
     transition: all 0.5s ease;
 }
-a.homeLogo:hover{
+a.logo:hover{
     background-color: #FFD787;
 }
-img.homeNav{
+img.nav{
     max-height: 70px;
 }
-.homeNav .icon{
+.nav .icon{
     display: none;
 }
 a.icon{
     color: black;
 }
 @media screen and (max-width: 1000px) {
-    .homeNav a:not(:first-child) {display: none;}
-    .homeNav a.icon {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
         float: right;
         position: absolute;
         right: 0;
@@ -54,19 +55,19 @@ a.icon{
     nav.responsive{
         width: 100vw;
     }
-    .homeNav.responsive {
+    .nav.responsive {
         position: relative;
     }
-    .homeNav.responsive a.icon {
+    .nav.responsive a.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-    .homeNav.responsive a {
+    .nav.responsive a {
         float: none;
         display: block;
     }
-    .homeNav.responsive a:not(:first-child, :last-child, :nth-child(7)){
+    .nav.responsive a:not(:first-child, :last-child, :nth-child(7)){
         /*        width: 50px;*/
         text-align: center;
         /*        background-color: #FCB425;*/
@@ -97,7 +98,7 @@ a.icon{
         cursor: default;
         transition: all 0.5s ease;
     }
-    .responsive a.homeLogo:hover{
+    .responsive a.logo:hover{
         background-color: #FFD787;
     }
 }

@@ -26,18 +26,18 @@ section.first-section{
     text-align: center;
     padding: 20px;
 }
-.home{
+.first-section{
     margin: 20px;
 }
-h1.home{
+h1.first-section{
     font-size: 3rem;
     font-weight: 700;
 }
-h3.home{
+h3.first-section{
     font-size: 2rem;
     font-weight: 500;
 }
-p.home{
+p.first-section{
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 2;
@@ -49,29 +49,29 @@ section.second-section{
     color: white;
     background-color: #651d32;
 }
-img.home-directors{
+img.second-section{
     max-height: 350px;
     width: auto;
 }
-container.home-directors{
+container.second-section{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
     flex-wrap: wrap;
 }
-div.home-directors{
+div.second-section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h2.home-directors{
+h2.second-section{
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
     padding: 20px;
 }
-button.home-directors{
+button.second-section{
     width: 200px;
     padding: 5px 10px;
     border-radius: 40px;
@@ -80,24 +80,24 @@ button.home-directors{
     background-color: #ffd787;
     color: #651D32;
 }
-p.home-directors{
+p.second-section{
     width: 300px;
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
 }
-img.home-directors, p.home-directors, button.home-directors{
+img.second-section, p.second-section, button.second-section{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-button.home-directors:hover{
+button.second-section:hover{
     cursor: pointer;
     box-shadow: 10px 10px 20px #ffd687;
     background-color: #FCB425;
     border-color: #FCB425;
     transition: all 0.5s ease;
 }
-button.home-directors:not(:hover){
+button.second-section:not(:hover){
     box-shadow: none;
     background-color: #ffd687;
     border-color: #ffd687;
@@ -114,29 +114,29 @@ section.third-section{
     color: black;
     background-color: white;
 }
-img.home-instruments{
+img.third-section{
     max-height: 350px;
     width: auto;
 }
-container.home-instruments{
+container.third-section{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
     flex-wrap: wrap;
 }
-div.home-instruments{
+div.third-section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h2.home-instruments{
+h2.third-section{
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
     padding: 20px;
 }
-button.home-instruments{
+button.third-section{
     width: 200px;
     padding: 5px 10px;
     border-radius: 40px;
@@ -145,24 +145,24 @@ button.home-instruments{
     background-color: #fcb425;
     color: #651D32;
 }
-p.home-instruments{
+p.third-section{
     width: 300px;
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
 }
-img.home-instruments, p.home-instruments, button.home-instruments{
+img.third-section, p.third-section, button.third-section{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-button.home-instruments:hover{
+button.third-section:hover{
     cursor: pointer;
     box-shadow: 10px 10px 20px #FCB425;
     background-color: #ffd687;
     border-color: #ffd687;
     transition: all 0.5s ease;
 }
-button.home-instruments:not(:hover){
+button.third-section:not(:hover){
     box-shadow: none;
     background-color: #FCB425;
     border-color: #FCB425;
@@ -174,29 +174,29 @@ section.fourth-section{
     color: black;
     background-color: #FCB425;
 }
-img.home-orchestras{
+img.fourth-section{
     max-height: 250px;
     width: auto;
 }
-container.home-orchestras{
+container.fourth-section{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
     flex-wrap: wrap;
 }
-div.home-orchestras{
+div.fourth-section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h2.home-orchestras{
+h2.fourth-section{
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
     padding: 20px;
 }
-button.home-orchestras{
+button.fourth-section{
     width: 200px;
     padding: 5px 10px;
     border-radius: 40px;
@@ -205,17 +205,17 @@ button.home-orchestras{
     background-color: #651D32;
     color: #ffd687;
 }
-p.home-orchestras{
+p.fourth-section{
     width: 300px;
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
 }
-img.home-orchestras, p.home-orchestras, button.home-orchestras{
+img.fourth-section, p.fourth-section, button.fourth-section{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-button.home-orchestras:hover{
+button.fourth-section:hover{
     cursor: pointer;
     box-shadow: 10px 10px 20px #651D32;
     background-color: #E88989;
@@ -223,7 +223,7 @@ button.home-orchestras:hover{
     color: white;
     transition: all 0.5s ease;
 }
-button.home-orchestras:not(:hover){
+button.fourth-section:not(:hover){
     box-shadow: none;
     background-color: #651D32;
     border-color: #651D32;
@@ -235,29 +235,29 @@ section.fifth-section{
     color: black;
     background-color: white;
 }
-img.home-awards{
+img.fifth-section{
     max-height: 350px;
     width: auto;
 }
-container.home-awards{
+container.fifth-section{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
     flex-wrap: wrap;
 }
-div.home-awards{
+div.fifth-section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h2.home-awards{
+h2.fifth-section{
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
     padding: 20px;
 }
-button.home-awards{
+button.fifth-section{
     width: 200px;
     padding: 5px 10px;
     border-radius: 40px;
@@ -266,17 +266,17 @@ button.home-awards{
     background-color: #e88989;
     color: #651D32;
 }
-p.home-awards{
+p.fifth-section{
     width: 300px;
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
 }
-img.home-awards, p.home-awards, button.home-awards{
+img.fifth-section, p.fifth-section, button.fifth-section{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-button.home-awards:hover{
+button.fifth-section:hover{
     cursor: pointer;
     box-shadow: 10px 10px 20px #e88989;
     background-color: #651D32;
@@ -284,7 +284,7 @@ button.home-awards:hover{
     color: white;
     transition: all 0.5s ease;
 }
-button.home-awards:not(:hover){
+button.fifth-section:not(:hover){
     box-shadow: none;
     background-color: #e88989;
     border-color: #e88989;
@@ -296,29 +296,29 @@ section.sixth-section{
     color: white;
     background-color: #e88989;
 }
-img.home-announcements{
+img.sixth-section{
     max-height: 350px;
     width: auto;
 }
-container.home-announcements{
+container.sixth-section{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
     flex-wrap: wrap;
 }
-div.home-announcements{
+div.sixth-section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h2.home-announcements{
+h2.sixth-section{
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
     padding: 20px;
 }
-button.home-announcements{
+button.sixth-section{
     width: 200px;
     padding: 5px 10px;
     border-radius: 40px;
@@ -327,24 +327,24 @@ button.home-announcements{
     background-color: #ffd787;
     color: #651D32;
 }
-p.home-announcements{
+p.sixth-section{
     width: 300px;
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
 }
-img.home-announcements, p.home-announcements, button.home-announcements{
+img.sixth-section, p.sixth-section, button.sixth-section{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-button.home-announcements:hover{
+button.sixth-section:hover{
     cursor: pointer;
     box-shadow: 10px 10px 20px #ffd687;
     background-color: #FCB425;
     border-color: #FCB425;
     transition: all 0.5s ease;
 }
-button.home-announcements:not(:hover){
+button.sixth-section:not(:hover){
     box-shadow: none;
     background-color: #ffd687;
     border-color: #ffd687;
@@ -356,29 +356,29 @@ section.seventh-section{
     color: black;
     background-color: white;
 }
-img.home-resources{
+img.seventh-section{
     max-height: 350px;
     width: auto;
 }
-container.home-resources{
+container.seventh-section{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
     flex-wrap: wrap;
 }
-div.home-resources{
+div.seventh-section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h2.home-resources{
+h2.seventh-section{
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
     padding: 20px;
 }
-button.home-resources{
+button.seventh-section{
     width: 200px;
     padding: 5px 10px;
     border-radius: 40px;
@@ -387,24 +387,24 @@ button.home-resources{
     background-color: #fcb425;
     color: #651D32;
 }
-p.home-resources{
+p.seventh-section{
     width: 300px;
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
 }
-img.home-resources, p.home-resources, button.home-resources{
+img.seventh-section, p.seventh-section, button.seventh-section{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-button.home-resources:hover{
+button.seventh-section:hover{
     cursor: pointer;
     box-shadow: 10px 10px 20px #FCB425;
     background-color: #ffd687;
     border-color: #ffd687;
     transition: all 0.5s ease;
 }
-button.home-resources:not(:hover){
+button.seventh-section:not(:hover){
     box-shadow: none;
     background-color: #FCB425;
     border-color: #FCB425;
