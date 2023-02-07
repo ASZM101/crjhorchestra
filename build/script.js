@@ -38,3 +38,33 @@ function compactNav4() {
         element.className = "nav";
     }
 }
+
+function compactNav5() {
+    var element = document.getElementById("topNav5");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}
+
+function compactNav6() {
+    var element = document.getElementById("topNav6");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}
+
+function compactNav7() {
+    var element = document.getElementById("topNav7");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}
