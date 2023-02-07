@@ -536,14 +536,38 @@ div.orchestraSection > *{
     margin: 20px;
 }
 
-/*NEWS*/
-
-/*
-div.newsletter{
-    width: 75vw;
-    height: 100vh;
+/*AWARDS*/
+.awards p{
+    padding: 0px 50px;
 }
-.newsletter iframe{
-    margin: auto;
+hr{
+    width: 200px;
+    margin: 20px auto;
 }
-*/
+.awards img{
+    max-height: 300px;
+    width: auto;
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+}
+section.awards{
+    text-align: center;
+}
+.awards h2{
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+}
+.awards h3{
+    padding: 0px;
+    margin: 0px;
+}
+.second-section hr.awards{
+    border-color: white;
+}
+.third-section hr.awards{
+    border-color: black;
+}
+.fourth-section hr.awards{
+    border-color: black;
+}
