@@ -1,14 +1,67 @@
 "use strict";
-/* eslint-disable no-unused-vars */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 function compactNav() {
     var element = document.getElementById("topNav");
-    if (element === null)
-        return;
-    if (element.className === "homeNav") {
+    if (element.className === "nav") {
         element.className += " responsive";
     }
     else {
-        element.className = "homeNav";
+        element.className = "nav";
     }
 }
-/* eslint-enable no-unused-vars */ 
+function compactNav2() {
+    var element = document.getElementById("topNav2");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}
+function compactNav3() {
+    var element = document.getElementById("topNav3");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}
+function compactNav4() {
+    var element = document.getElementById("topNav4");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}
+function compactNav5() {
+    var element = document.getElementById("topNav5");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}
+function compactNav6() {
+    var element = document.getElementById("topNav6");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}
+function compactNav7() {
+    var element = document.getElementById("topNav7");
+    if (element.className === "nav") {
+        element.className += " responsive";
+    }
+    else {
+        element.className = "nav";
+    }
+}
+/* eslint-enable @typescript-eslint/no-unused-vars
+ */ 
