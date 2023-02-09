@@ -41,7 +41,7 @@ img.nav{
 a.icon{
     color: black;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
     .nav a:not(:first-child) {display: none;}
     .nav a.icon {
         float: right;
@@ -51,7 +51,7 @@ a.icon{
         display: block;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
     nav.responsive{
         width: 100vw;
     }
