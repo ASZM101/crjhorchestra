@@ -18,7 +18,6 @@ button{
 img{
     max-width: 90vw;
 }
-
 /*HOME*/
 section.first-section{
     color: black;
@@ -444,7 +443,7 @@ img.contactIcon:hover{
 }
 img.contactIcon:not(:hover){
     border-bottom: 3px solid white;
-    transition: border-bottom 0.5s ease;
+    transition: all 0.5s ease;
 }
 @media screen and (max-width: 600px){
     img.contactIcon{
@@ -570,4 +569,31 @@ section.awards{
 }
 .fourth-section hr.awards{
     border-color: black;
+}
+
+/*RESOURCES*/
+.resourceButtons button{
+    height: 75px;
+}
+div.resourceButtons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.resources p{
+    margin: 0px 50px;
+}
+img.pics{
+    width: 200px;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+}
+.resources a:not(:hover){
+    color: #651D32;
+    transition: all 0.5s ease;
+}
+.resources a:hover{
+    color: #FFFFFF;
+    transition: all 0.5s ease;
 }
