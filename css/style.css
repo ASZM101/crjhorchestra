@@ -572,9 +572,6 @@ section.awards{
 }
 
 /*RESOURCES*/
-.resourceButtons button{
-    height: 75px;
-}
 div.resourceButtons{
     display: flex;
     flex-wrap: wrap;
