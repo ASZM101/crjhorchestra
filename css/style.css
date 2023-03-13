@@ -581,7 +581,8 @@ div.resourceButtons{
     margin: 0px 50px;
 }
 img.pics{
-    width: 200px;
+    max-height: 150px;
+    max-width: 200px;
     margin: auto;
     display: block;
     padding-top: 20px;
@@ -591,6 +592,6 @@ img.pics{
     transition: all 0.5s ease;
 }
 .resources a:hover{
-    color: #FFFFFF;
+    color: #FCB425;
     transition: all 0.5s ease;
 }
