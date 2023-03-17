@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="img/logo.png">
     <meta charset="utf-8">
@@ -10,7 +9,6 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/nav.css" rel="stylesheet" type="text/css" />
     <link href="css/footer.css" rel="stylesheet" type="text/css" />
-    <script src="build/script.js"></script>
 </head>
 
 <body>
@@ -52,9 +50,38 @@
         <br>
     </section>
 
-    <section class="third-section resources" id="survey">
+    <section class="third-section resources">
         <img class="pics" src="img/survey.png" alt="Questionnaire Icon">
         <h2 class="third-section">Instrument Survey</h2>
+        <div id="survey">
+            <p class="paragraph"><i>Answer a few questions to find out which instrument is better for you!</i></p>
+            <br>
+            <p class="paragraph question">Listen to each of the recordings below. Which of the following do you like better?</p>
+            <br>
+            <form class="surveyQ1">
+                <div class="survey-recording">
+                    <input type="radio" id="violin-recording" name="recording" value="violin" class="optionsQ1 violin">&#9;
+                    <iframe width="200" height="100" src="https://www.youtube.com/embed/_sRhvueunEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <br>
+                <div class="survey-recording">
+                    <input type="radio" id="viola-recording" name="recording" value="viola" class="optionsQ1 viola">&#9;
+                    <iframe width="200" height="100" src="https://www.youtube.com/embed/VMMheCbJ6l4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <br>
+                <div class="survey-recording">
+                    <input type="radio" id="cello-recording" name="recording" value="cello" class="optionsQ1 cello">&#9;
+                    <iframe width="200" height="100" src="https://www.youtube.com/embed/xwsWx3Au6DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <br>
+                <div class="survey-recording">
+                    <input type="radio" id="bass-recording" name="recording" value="bass" class="optionsQ1 bass">&#9;
+                    <iframe width="200" height="100" src="https://www.youtube.com/embed/Zook_bGHT3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <br>
+            </form>
+            <button class="question1 third-section" id="next1" onclick="nextQ1()">Next</button>
+        </div>
         <br>
     </section>
 
@@ -142,4 +169,6 @@
             </li>
         </ul>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="build/script.js"></script>
 </body>

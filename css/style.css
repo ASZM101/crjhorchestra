@@ -43,7 +43,7 @@ h3.first-section{
     font-size: 2rem;
     font-weight: 500;
 }
-p.first-section, p.paragraph{
+p.first-section, p.paragraph, label.paragraph{
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 2;
@@ -594,4 +594,14 @@ img.pics{
 .resources a:hover{
     color: #FCB425;
     transition: all 0.5s ease;
+}
+#survey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.survey-recording{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
