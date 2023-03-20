@@ -31,12 +31,12 @@ section.first-section{
 h1.first-section{
     font-size: 3rem;
     font-weight: 700;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 @media screen and (max-width: 400px) {
     section.first-section{
-        padding: 20px 0px;
+        padding: 20px 0;
     }
 }
 h3.first-section{
@@ -447,7 +447,7 @@ img.contactIcon:not(:hover){
 }
 @media screen and (max-width: 600px){
     img.contactIcon{
-        padding: 10px 0px;
+        padding: 10px 0;
     }
 }
 
@@ -537,7 +537,7 @@ div.orchestraSection > *{
 
 /*AWARDS*/
 .awards p{
-    padding: 0px 50px;
+    padding: 0 50px;
 }
 hr{
     width: 200px;
@@ -554,12 +554,12 @@ section.awards{
     text-align: center;
 }
 .awards h2{
-    padding: 20px 0px 0px 0px;
-    margin: 0px;
+    padding: 20px 0 0 0;
+    margin: 0;
 }
 .awards h3{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 .second-section hr.awards{
     border-color: white;
@@ -578,7 +578,7 @@ div.resourceButtons{
     justify-content: center;
 }
 .resources p{
-    margin: 0px 50px;
+    margin: 0 50px;
 }
 img.pics{
     max-height: 150px;
