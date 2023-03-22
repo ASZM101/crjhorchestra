@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-function compactNavLogic(element) {
+function compactNavLogic(element: HTMLElement) {
     if (element.className === "nav") {
         element.className += " responsive";
     } else {
@@ -7,45 +7,54 @@ function compactNavLogic(element) {
     }
 }
 function compactNav() {
-    var element = document.getElementById("topNav");
+    const element = document.getElementById("topNav");
+    if (element === null) return;
     compactNavLogic(element);
 }
 function compactNav2() {
-    var element = document.getElementById("topNav2");
+    const element = document.getElementById("topNav2");
+    if (element === null) return;
     compactNavLogic(element);
 }
 function compactNav3() {
-    var element = document.getElementById("topNav3");
+    const element = document.getElementById("topNav3");
+    if (element === null) return;
     compactNavLogic(element);
 }
 function compactNav4() {
-    var element = document.getElementById("topNav4");
+    const element = document.getElementById("topNav4");
+    if (element === null) return;
     compactNavLogic(element);
 }
 function compactNav5() {
-    var element = document.getElementById("topNav5");
+    const element = document.getElementById("topNav5");
+    if (element === null) return;
     compactNavLogic(element);
 }
 function compactNav6() {
-    var element = document.getElementById("topNav6");
+    const element = document.getElementById("topNav6");
+    if (element === null) return;
     compactNavLogic(element);
 }
 function compactNav7() {
-    var element = document.getElementById("topNav7");
+    const element = document.getElementById("topNav7");
+    if (element === null) return;
     compactNavLogic(element);
 }
 
-var survey = document.getElementById("survey");
-var answer1 = "";
-var answer2 = "";
-var recording = "";
-var sound = "";
-var size = "";
+const survey = document.getElementById("survey");
+let answer1 = "", answer2 = "", sound = "", size = "";
 function nextQ0() {
+    if (survey === null) { return }
     survey.innerHTML = '<p class="paragraph"><i>Answer a few questions to find out which instrument is better for you!</i></p><br><p class="paragraph" id="question">Listen to each of the recordings below. Which of the following do you like better?</p><br><form class="surveyQ1"><div class="survey-recording"><input type="radio" id="violin-recording" name="recording" value="violin" class="optionsQ1 violin">&#9;<iframe width="200" height="100" src="https://www.youtube.com/embed/_sRhvueunEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><br><div class="survey-recording"><input type="radio" id="viola-recording" name="recording" value="viola" class="optionsQ1 viola">&#9;<iframe width="200" height="100" src="https://www.youtube.com/embed/VMMheCbJ6l4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><br><div class="survey-recording"><input type="radio" id="cello-recording" name="recording" value="cello" class="optionsQ1 cello">&#9;<iframe width="200" height="100" src="https://www.youtube.com/embed/xwsWx3Au6DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><br><div class="survey-recording"><input type="radio" id="bass-recording" name="recording" value="bass" class="optionsQ1 bass">&#9;<iframe width="200" height="100" src="https://www.youtube.com/embed/Zook_bGHT3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><br></form><a href="#surveySection"><button class="question1 third-section" id="next1" onclick="nextQ1()">Next</button></a>';
 }
-function nextQ1() {
-    var question = document.getElementById("question"), optionsQ1 = document.querySelector('input[name = "recording"]:checked').className;
+function nextQ1(): string {
+    if (survey === null) { return ""; }
+    const optionChecked = document.querySelector('input[name = "recording"]:checked');
+    if (optionChecked === null) { return ""; }
+    document.getElementById("question");
+    const optionsQ1 = optionChecked.className;
+
     if (optionsQ1 === "optionsQ1 violin") {
         answer1 = "violin";
     } else if (optionsQ1 === "optionsQ1 viola") {
@@ -61,8 +70,12 @@ function nextQ1() {
     return answer1;
 }
 answer1 = nextQ1();
-function nextQ2() {
-    var question = document.getElementById("question"), optionsQ2 = document.querySelector('input[name = "sound"]:checked').className;
+function nextQ2() : string {
+    if (survey === null) { return ""; }
+    const options = document.querySelector('input[name = "sound"]:checked');
+    if (options === null) {return "";}
+    document.getElementById("question");
+    const optionsQ2 = options.className;
     if (optionsQ2 === "optionsQ2 high") {
         sound = "high";
     } else if (optionsQ2 === "optionsQ2 medium") {
@@ -76,8 +89,12 @@ function nextQ2() {
     return sound;
 }
 sound = nextQ2();
-function nextQ3() {
-    var question = document.getElementById("question"), optionsQ3 = document.querySelector('input[name = "size"]:checked').className;
+function nextQ3(){
+    if (survey === null) { return; }
+    const options = document.querySelector('input[name = "size"]:checked');
+    if (options === null) {return;}
+    document.getElementById("question");
+    const optionsQ3 = options.className;
     if (optionsQ3 === "optionsQ3 small") {
         size = "small";
     } else if (optionsQ3 === "optionsQ3 large") {
