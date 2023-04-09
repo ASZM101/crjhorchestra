@@ -441,6 +441,14 @@ button.seventh-section:not(:hover){
 }
 
 /*DIRECTORS*/
+div.directorDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+p.directorInfo{
+    max-width: 50vw;
+    margin: 5px;
+}
 img.directorPics{
     max-height: 350px;
     border-radius: 50%;
@@ -470,6 +478,9 @@ img.contactIcon:not(:hover){
 @media screen and (max-width: 600px){
     img.contactIcon{
         padding: 10px 0;
+    }
+    p.directorInfo{
+        max-width: 100%;
     }
 }
 
