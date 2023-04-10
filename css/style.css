@@ -440,7 +440,7 @@ button.seventh-section:not(:hover){
     transition: all 0.5s ease;
 }
 
-/*DIRECTORS*/
+/*VIPs*/
 div.directorDiv{
     display: flex;
     flex-wrap: wrap;
@@ -483,6 +483,24 @@ img.contactIcon:not(:hover){
         max-width: 100%;
     }
 }
+div.vips > *{
+    margin: auto;
+}
+div.vips{
+    margin: 30px;
+}
+container.vipContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sixth-section img.musicianPics{
+    border: 3px solid #FFD787;
+}
+.seventh-section img.musicianPics{
+    border: 3px solid #FCB425;
+}
 
 /*INSTRUMENTS*/
 p.instrumentInfo{
@@ -493,6 +511,12 @@ div.instrumentSection{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+img.musicianPics{
+    border-radius: 50%;
+    display: block;
+    max-height: 150px;
+    background-color: white;
 }
 div.second-section img.musicianPics{
     border-radius: 50%;
